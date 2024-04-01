@@ -1,7 +1,7 @@
 'use strict';
 
 var utils = require('../utils/writer.js');
-var GDPR = require('../service/GDPRService');
+var GDPR = require('../service/GDPRService_.js');
 
 module.exports.post/crm/v3/objects/tickets/gdprDelete_purge = function post/crm/v3/objects/tickets/gdprDelete_purge (req, res, next, body) {
   GDPR.post/crm/v3/objects/tickets/gdprDelete_purge(body)

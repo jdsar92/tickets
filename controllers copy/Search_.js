@@ -1,7 +1,7 @@
 'use strict';
 
 var utils = require('../utils/writer.js');
-var Search = require('../service/SearchService');
+var Search = require('../service/SearchService_.js');
 
 module.exports.post/crm/v3/objects/tickets/search_doSearch = function post/crm/v3/objects/tickets/search_doSearch (req, res, next, body) {
   Search.post/crm/v3/objects/tickets/search_doSearch(body)

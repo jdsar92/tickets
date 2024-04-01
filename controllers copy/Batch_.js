@@ -1,7 +1,7 @@
 'use strict';
 
 var utils = require('../utils/writer.js');
-var Batch = require('../service/BatchService');
+var Batch = require('../service/BatchService_.js');
 
 module.exports.post/crm/v3/objects/tickets/batch/archive_archive = function post/crm/v3/objects/tickets/batch/archive_archive (req, res, next, body) {
   Batch.post/crm/v3/objects/tickets/batch/archive_archive(body)

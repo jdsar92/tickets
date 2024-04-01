@@ -18,7 +18,7 @@ info:
   x-hubspot-introduction: Use the tickets API to create and manage CRM records that
     represent customer service requests in your CRM.
 servers:
-- url: https://api.hubapi.com
+- url: https://tickets-production.up.railway.app
 tags:
 - name: Batch
 - name: Basic
@@ -1405,7 +1405,7 @@ components:
             crm.objects.companies.write: ' '
             crm.objects.contacts.write: ' '
             crm.objects.contacts.read: ' '
-    private_apps_legacy:
+    private_apps_legacy:  
       type: apiKey
       name: private-app-legacy
       in: header
